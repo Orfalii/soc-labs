@@ -48,7 +48,7 @@ Foi identificado um ataque de brute force, com múltiplas tentativas de login se
 
 Os logs analisados estão disponíveis abaixo:
 
-Logs analisados: [logs.txt](logs.txt)
+Logs analisados: [Logs.txt](Logs.txt)
 
 ---
 
