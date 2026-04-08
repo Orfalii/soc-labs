@@ -50,6 +50,10 @@ Os logs analisados estão disponíveis abaixo:
 
 Logs analisados: [Logs.txt](Logs.txt)
 
+## Evidência Visual
+
+![Evidência](evidence.png)
+
 ---
 
 ## Relatório Completo
