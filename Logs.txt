@@ -1,7 +1,10 @@
 Apr 10 09:58:10 server sshd[1111]: Accepted password for user1 from 192.168.1.10 port 22
 Apr 10 09:59:02 server sshd[1112]: Failed password for test from 192.168.1.20 port 22
+
 Apr 10 10:01:23 server sshd[1234]: Failed password for admin from 192.168.1.50 port 22
 Apr 10 10:01:25 server sshd[1234]: Failed password for admin from 192.168.1.50 port 22
 Apr 10 10:01:27 server sshd[1234]: Failed password for admin from 192.168.1.50 port 22
+
 Apr 10 10:02:10 server sshd[1234]: Accepted password for admin from 192.168.1.50 port 22
+
 Apr 10 10:03:45 server sshd[1113]: Accepted password for user2 from 192.168.1.15 port 22
