@@ -11,7 +11,7 @@ Identificar tentativas de acesso não autorizado através da análise de logs.
 
 ---
 
-### 🔍 Análise
+### Análise
 - Detectadas múltiplas tentativas de login falhas  
 - Origem: IP 192.168.1.50 (identificado nos logs)  
 - Comportamento consistente com ataque de força bruta  
