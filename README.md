@@ -16,7 +16,7 @@ Identificar se a sequência de autenticações observada indica tentativa de ace
 ---
 
 ### Principais Achados
-- Múltiplas falhas de autenticação via SSH para a conta `admin` em curto intervalo.
+- 26 falhas de autenticação via SSH para a conta `admin` em menos de 1 minuto.
 - Origem: IP `192.168.1.50` (identificado nos logs)  
 - Login bem-sucedido para a mesma conta após a sequência de falhas.
 - Evidências compatíveis com brute force bem-sucedido e potencial comprometimento de credencial.
