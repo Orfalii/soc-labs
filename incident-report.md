@@ -4,7 +4,7 @@
 10/04/2026
 
 ## Objetivo
-Realizar a análise de logs de autenticação para identificar possíveis atividades maliciosas.
+Analisar eventos de autenticação SSH para identificar atividade maliciosa, validar a hipótese de brute force e documentar a classificação do incidente.
 
 ---
 
