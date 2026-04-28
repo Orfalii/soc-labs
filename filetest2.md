@@ -1,20 +1,3 @@
-# SOC Labs - Raphael Orfali
-
-Este repositório reúne estudos práticos em cibersegurança com foco em Blue Team, análise de logs e investigação inicial de incidentes.
-
-## Lab 1 - Brute Force Detection Analysis
-
-### Scenario
-Este laboratório simula um caso de brute force contra uma conta com privilégio elevado em um servidor Linux exposto via SSH. O objetivo é analisar os eventos de autenticação, separar ruído de atividade suspeita e documentar a investigação como um caso de triagem inicial em SOC.
-
-### Objective
-Identificar se a sequência de autenticações observada indica tentativa de acesso não autorizado e justificar a classificação do incidente com base nos logs disponíveis.
-
-### Key Findings
-- Múltiplas falhas de autenticação via SSH para a conta `admin` em curto intervalo.
-- Origem recorrente: `192.168.1.50`.
-- Login bem-sucedido para a mesma conta após a sequência de falhas.
-- Evidências compatíveis com brute force bem-sucedido e potencial comprometimento de credencial.
 
 ### Incident Summary
 - Severity: High
@@ -45,16 +28,4 @@ Este caso demonstra competências importantes para funções de SOC/Blue Team:
 4. Classificação do incidente com base em IOC, timeline, impacto e técnica MITRE.
 5. Definição de ações imediatas de contenção e fortalecimento de controle.
 
-### Recommended Actions
-- Bloquear ou isolar temporariamente o IP de origem no firewall.
-- Resetar a senha da conta afetada.
-- Habilitar MFA para acessos administrativos.
-- Revisar exposição do serviço SSH e políticas de bloqueio por tentativas.
-- Correlacionar esse IOC com outras fontes de log para verificar atividade lateral.
 
-## Evidence
-
-![Evidence](evidence.png)
-
-## Notes
-Os logs deste repositório representam um cenário simulado para fins de estudo e prática em investigação de incidentes.
