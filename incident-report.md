@@ -112,6 +112,3 @@ Houve repetição de falhas para a mesma conta administrativa, a partir da mesma
 Com base nos logs analisados, o incidente deve ser tratado como brute force bem-sucedido contra a conta `admin`, com forte indicação de comprometimento.
 
 O caso exige contenção imediata e validação de possíveis ações executadas após o login bem-sucedido.
-
-
-O que eu ajustei:
