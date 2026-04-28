@@ -25,10 +25,15 @@ Identificar se a sequência de autenticações observada indica tentativa de ace
 
 ### Resumo do Incidente
 Severidade: Alta
+
 Status: Confirmado
+
 MITRE ATT&CK: `T1110 - Brute Force`
+
 IOC Principal: `192.168.1.50`
+
 Conta Afetada: `admin`
+
 Serviço Exposto: `SSH / port 22`
 
 ---
